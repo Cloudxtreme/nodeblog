@@ -1,1 +1,1 @@
-web: NODE_ENV=production node index.js node_modules/ghost/index.js
+web: NODE_ENV=production node index.js

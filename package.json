@@ -58,7 +58,8 @@
     "validator": "3.4.0",
     "when": "2.7.0",
     "xml": "0.0.12",
-    "mysql": "2.1.1"
+    "mysql": "2.1.1",
+    "pg": "latest"
   },
   "optionalDependencies": {
     "mysql": "2.1.1"

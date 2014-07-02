@@ -51,9 +51,13 @@ config = {
         url: 'http://my-ghost-blog.com',
         mail: {},
         database: {
-            client: 'sqlite3',
+            client: 'postgres',
             connection: {
-                filename: path.join(__dirname, '/content/data/ghost.db')
+                host: 'ec2-54-197-238-8.compute-1.amazonaws.com',
+                user: 'ckswrfdswnozem',
+                password: 'password',
+                database: 'dhdj0am8gdon9',
+                port: '5432'
             },
             debug: false
         },
