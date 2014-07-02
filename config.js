@@ -55,7 +55,7 @@ config = {
             connection: {
                 host: 'ec2-54-197-238-8.compute-1.amazonaws.com',
                 user: 'ckswrfdswnozem',
-                password: 'password',
+                password: '0bVJi4u2NBkue4CYj_1-D1qAcR',
                 database: 'dhdj0am8gdon9',
                 port: '5432'
             },
