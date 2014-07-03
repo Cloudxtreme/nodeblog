@@ -2,6 +2,7 @@
 // Setup your Ghost install for various environments
 // Documentation can be found at http://docs.ghost.org/usage/configuration/
 
+/* global require, __dirname, process, module */
 var path = require('path'),
     config;
 
@@ -48,7 +49,7 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://my-ghost-blog.com',
+        url: 'http://young-atoll-8196.herokuapp.com',
         mail: {},
         database: {
             client: 'postgres',
