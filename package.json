@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/simpixelated/nodeblog",
   "dependencies": {
-    "ghost": "^0.4.2"
+    "ghost": "^0.4.2",
+    "pg": "latest"
   }
 }
